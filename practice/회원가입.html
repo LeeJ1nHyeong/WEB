@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- 인라인 요소 vs 블록 요소(element) -->
+        <!-- 줄바꿈이 발생하지 않는다 vs 줄바꿈이 발생한다 -->
+        <h1>회원가입 양식 만들기</h1>
+
+        <div>이름 <input type="text"></div>
+        <div>아이디 <input type="text"></div>
+        <div>비밀번호 <input type="password"></div>
+        <!-- name에 같은 이름을 넣어야 한 개씩 골라짐 -->
+        <div><input type="radio" name="gender" value=""/>남 <input type="radio" name="gender" value=""/>여</div>
+        <div>취미
+            <select>
+                <option value="">--취미--</option>
+                <option value="game">게임</option>
+                <option value="baseball">야구</option>
+                <option value="movie">영화보기</option>
+            </select> 
+        </div>
+        <div><input type="submit"></div>
+    </form>
+</body>
+</html>
